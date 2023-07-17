@@ -22,7 +22,7 @@ func main() {
 // var mySlice []string
 ##### How to make a slice in Golang method 1
 func Slice() {
-	var mySlice []string
+	var mySlice [ ]string
 	mySlice = append(mySlice, "Apples")
 	mySlice = append(mySlice, "Oranges")
 	mySlice = append(mySlice, "Mangos")
