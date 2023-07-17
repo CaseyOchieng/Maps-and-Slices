@@ -1,8 +1,10 @@
+# Here is a code that shows you how to create Slices and Maps in Golang
+
+
+## How to make a map in Golang
 package main
 
 import "log"
-
-// How to make a map in Golang
 
 func main() {
 	myMap := make(map[string]string)
@@ -15,11 +17,10 @@ func main() {
 
 }
 
-// Maps are collections of key-value pairs
 
-// How to make a slice in Golang
+## How to make a slice in Golang
 // var mySlice []string
-// How to make a slice in Golang method 1
+##### How to make a slice in Golang method 1
 func Slice() {
 	var mySlice []string
 	mySlice = append(mySlice, "Apples")
@@ -29,7 +30,7 @@ func Slice() {
 	log.Println(mySlice)
 }
 
-// How to make a slice in Golang method 2
+#####How to make a slice in Golang method 2
 func Slice2() {
 	fruits := []string{"Apples", "Oranges", "Mangos"}
 	log.Println(fruits)
