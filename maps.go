@@ -9,7 +9,7 @@ func maps() {
 
 	myMap["dog"] = "Samson"
 
-	myMap["Dog"] = "Casey"
+	myMap["Camels"] = "Casey"
 
 	log.Println("My Dogs name is", myMap["dog"]+" and "+myMap["Dog"])
 
